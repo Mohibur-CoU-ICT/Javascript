@@ -1,0 +1,38 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+.full-page{
+	text-align:center;
+}
+#head{
+	color:green;
+}
+.form-group{
+	margin:20px;
+}
+.form-control{
+	width:50%;
+	margin-top:10px;
+	padding:10px;
+}
+#button{
+	padding:5px;
+	margin:auto;
+}
+table.table{
+	width:80%;
+	margin:auto;
+	margin-top:50px;
+	margin-bottom:50px;
+	border:1px solid black;
+	border-collapse:collapse;
+}
+thead{
+	color:blue;
+}
+th{
+	border:1px solid black;
+	width:33.33%;
+	padding:10px;
+}

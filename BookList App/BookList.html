@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link href="BookList.css" rel="stylesheet"/>
+		<title>My BookList App</title>
+	</head>
+	
+	<body>
+		<div class="full-page">
+			
+			<h1 id="head">BookList Application</h1>
+			
+			<form id="book-form">
+				<div class="form-group">
+					<label for="title">Title</label><br/>
+					<input type="text" id="title" class="form-control"></input>
+				</div>
+				
+				<div class="form-group">
+					<label for="author">Author</label><br/>
+					<input type="text" id="author" class="form-control"></input>
+				</div>
+				
+				<div class="form-group">
+					<label for="year">Year</label><br/>
+					<input type="text" id="year" class="form-control"></input>
+				</div>
+				<input type="submit" value="Add Book" id="button"/>
+			</form>
+			
+			<table class="table">
+				<thead>
+					<tr>
+						<th>Title</th>
+						<th>Author</th>
+						<th>Year</th>
+					</tr>
+				</thead>
+				<tbody id="book-list"></tbody>
+			</table>
+		
+		</div>
+		
+		<script src="BookList.js"></script>
+		
+	</body>
+	
+</html>
